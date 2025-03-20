@@ -1,0 +1,30 @@
+.product-img {
+    width: 272px;
+    height: 272px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-img img {
+    max-width: 272px;
+    max-height: 272px;
+}
+@media (max-width: 1000px) {
+    #cat-opt {
+      width: 20vw;
+      
+    }
+    #cat-opt img{
+      width: 20vw;
+      
+    }
+    #cat-opt a{
+      width: 20vw !important;
+      
+    }
+    #cat-opt h5{
+     font-size: 1em;
+      
+    }
+  }
